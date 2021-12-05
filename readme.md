@@ -11,7 +11,7 @@ WoodWing provides this plug-in as a sample implementation. This plug-in is provi
 * Add the following your component-set localization files
 "COMPONENT_MATHML_LABEL":"MathML"
 * Add the following to your components-definition.json, update the view and edit urls, compile the component set and upload it into your server  
-
+```
 "components":[
         {
             "name": "mathml",
@@ -43,9 +43,10 @@ WoodWing provides this plug-in as a sample implementation. This plug-in is provi
             "dataType": "doc-interactive"
         }
  ]    
-
+```
 
 #MathML Example
+```
 <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
     <mi>x</mi> <mo>=</mo>
     <mrow>
@@ -64,3 +65,4 @@ WoodWing provides this plug-in as a sample implementation. This plug-in is provi
         </mfrac>
     </mrow>
 </math>
+```
