@@ -47,7 +47,7 @@ WoodWing provides this plug-in as a sample implementation. This plug-in is provi
  ]    
 ```
 
-#MathML Example
+## MathML Example
 ```
 <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
     <mi>x</mi> <mo>=</mo>
