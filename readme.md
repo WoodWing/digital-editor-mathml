@@ -1,5 +1,5 @@
 # WoodWing Digital Editor - MathML sample component
-Using the MathML component a user can embed scientific equation defined in MathML
+Using the MathML component a user can insert scientific equations into a WoodWing Digital Article 
 
 ![MathML in action](https://github.com/WoodWing/digital-editor-mathml/blob/master/digital-editor-mathml.gif "MathML in action")
 
