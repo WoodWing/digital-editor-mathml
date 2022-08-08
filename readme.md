@@ -12,9 +12,9 @@ WoodWing provides this plug-in as a sample implementation. This plug-in is provi
 * Add the files from component-set to your component set
 * Add the following your component-set localization files
 "COMPONENT_MATHML_LABEL":"MathML"
-* Add the following to your components-definition.json, update the view and edit urls, compile the component set and upload it into your server  
-```
-"components":[
+* Add the following to your components-definition.json, compile the component set and upload it into your server  
+```json
+"components": [
         {
             "name": "mathml",
             "icon": "icons/components/mathml.svg",
@@ -23,28 +23,25 @@ WoodWing provides this plug-in as a sample implementation. This plug-in is provi
             "showToolbar": "always",
             "properties": [
                 "position",
-                { "name": "mathml-data", "directiveKey": "mathml" }
+                { "name": "mathml-data", "directiveKey": "html" }
             ]
         }    
-]
+],
 
- "componentProperties": [
+"componentProperties": [
         {
             "name": "mathml-data",
-            "label": "Edit MathML",
+            "label": "MathML",
             "control": {
-                "type": "interactive",
-                "defaultConfig": {
-                    "options": {
-                        "mathML": ""
-                    }
-                },
-                "viewLink": "http://docker.for.mac.localhost/integrations/mathml/src/view.html",
-                "editLink": "http://docker.for.mac.localhost/integrations/mathml/src/edit.html"
-            },            
-            "dataType": "doc-interactive"
+                "type": "textarea",
+                "inputPlaceholder": "MathML"
+            },
+            "dataType": "doc-html"
         }
- ]    
+],
+
+"scripts": ["scripts/vendor.js", "scripts/mathml.js"]
+
 ```
 
 ## MathML Example
