@@ -3,4 +3,9 @@
     height: fit-content;
     width: fit-content;
     padding: 0px;
+    
+    div:empty {
+        width: 300px;
+        height: 150px;
+    }
 }
